@@ -1,0 +1,31 @@
+#word-list{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+
+.cardBox{
+    display: flex;
+	flex-direction: column;
+	border: 1px solid #CECECE;
+    padding: 2rem;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 10px;
+	div{
+		&:first-child{
+			font-weight: bold;
+			margin-bottom: 0.5rem;
+		}
+		&:last-child{
+			color: #3b3b3b;
+		}
+	}
+	&:not(:last-child){
+		margin-right: 2rem;
+	}
+}

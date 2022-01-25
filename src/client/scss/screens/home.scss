@@ -1,0 +1,23 @@
+.add-word-box{
+	display: flex;
+	align-items: center;
+	margin-top: 0.4rem;
+	margin-bottom: 1rem;
+
+	input{
+	border: 1px solid #E6E6E6;
+	padding:0.5rem 1rem 0.5rem 1rem;
+	margin-right: 1rem;
+
+	}
+
+	#add{
+		background-color: $blue;
+		color: white;
+		padding:0.5rem 1rem 0.5rem 1rem;
+		border-radius: 5px;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}
